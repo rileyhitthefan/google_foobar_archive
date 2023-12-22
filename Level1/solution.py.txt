@@ -1,0 +1,22 @@
+def solution(xs):
+
+    if len(xs) == 1:
+        return str(xs[0])
+
+    negative = [i for i in xs if i < 0]
+    positive = [i for i in xs if i > 0]
+
+    if len(negative+positive) == 0 and len(xs)>0:
+        return '0'
+
+    if len(negative) % 2 != 0:
+        negative.remove(max(negative))
+
+    if positive or negative:
+        product = 1
+        for i in positive + negative:
+            product *= i
+
+        return str(product)
+
+    return '0'
