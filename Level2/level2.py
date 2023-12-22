@@ -1,4 +1,4 @@
-def solution(h, q):
+def level2(h, q):
     # Your code here
     # Find parent
     def parent(a,h):
@@ -28,8 +28,8 @@ def solution(h, q):
         converter.append(convert)
     
     '''
-    solution(5, [19, 14, 28])  # Expected output: [21, 15, 29]
-    solution(3, [7, 3, 5, 1])  # Expected output: [-1, 7, 6, 3]
+    level2(5, [19, 14, 28])  # Expected output: [21, 15, 29]
+    level2(3, [7, 3, 5, 1])  # Expected output: [-1, 7, 6, 3]
     '''
     
     return converter
