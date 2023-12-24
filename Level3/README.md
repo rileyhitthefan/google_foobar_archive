@@ -37,3 +37,6 @@ So, putting that together, and making a common denominator, gives an answer in t
 which is
 [0, 3, 2, 9, 14].
 ```
+
+## Approach (Python)
+> [Reference](https://github.com/ivanseed/google-foobar-help/blob/a8ef2399af471744c1e423618bcd83fd3ce4d991/challenges/doomsday_fuel/doomsday_fuel.md)
