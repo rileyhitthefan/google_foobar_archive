@@ -1,5 +1,5 @@
 import numpy as np
-def level3(m):
+def l3c1(m):
     # Solving problem using Absobing Markov Chain
     absorb, nonabsorb = states(m)
     if 0 in absorb:
